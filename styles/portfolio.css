@@ -3,6 +3,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: space-between;
+    margin: 0 100px;
 }
 .nav-title{
     color:#181818;
@@ -18,7 +19,7 @@ nav > ul{
 }
 nav li {
    list-style: none;
-   margin-right: 50px;
+   margin-right: 60px;
   
 }
 nav a{
@@ -31,4 +32,15 @@ nav a{
  font-size: 20px;
  font-size: 700;
  color: white;
+}
+.header{
+   background-color: rgb(245, 240, 236);
+}
+.banner{
+  padding: 40px 30px 30px 50px;
+ display: flex;
+ align-items: center;
+}
+.banner .pro{
+    width: 200px;
 }
