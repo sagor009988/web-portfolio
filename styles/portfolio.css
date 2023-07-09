@@ -47,9 +47,10 @@ nav a{
 }
 .header{
    background-color: rgb(245, 240, 236);
-   background-image: url(/images/header_bg.png); 
+   background-image: url(/images/header_bg.png) ;
    background-repeat: no-repeat;
-   background-size: 300px; background-position: bottom right ;
+   background-size:300px ; background-position: bottom right ;
+
 }
 
 .banner-elements{
