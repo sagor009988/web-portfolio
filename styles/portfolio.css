@@ -102,7 +102,36 @@ main{
 .skills-container{
     display: flex;
     justify-content: space-between;
+    gap:20px ;
 }
 .skill{
-    justify-content: center;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 1px 35px 0px;
+   
+}
+.resume-bg{
+    background-color:rgb(246, 240, 234);
+    border-radius: 5px;
+}
+.resume-colum-titl{
+color: #757575; 
+
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-instute,.resume-item-description{
+    color: #3a3838;
+}
+.resume-container hr{
+    margin: 20px;
+}
+.download{
+    text-align: center;
+    margin: 30px;
 }
